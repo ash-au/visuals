@@ -1,7 +1,10 @@
-Tech to Learn [Backend];
+Tech to Learn
+2018 [Backend];
 branch(front) [Frontend] {
   HTML, CSS, Javascript;
-  React Native
+  React Native;
+  // This will eventually take over
+  Flutter;
 }
 branch(mid) [Middleware] {
   Docker;
@@ -10,7 +13,14 @@ branch(mid) [Middleware] {
   //Create service mesh
   Istio;
   //And microservices
+  API Management;
   Microservices Architecture
+}
+branch(db) [Database] {
+  postgre;
+  Cloud SQL;
+  Cloud Datastore;
+  Firestore;
 }
 {
   Node.js;
@@ -18,5 +28,5 @@ branch(mid) [Middleware] {
   Express.js;
   Meteor.js;
 }
-join(front, mid)
+join(front, mid, db)
 Awesomeness;
