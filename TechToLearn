@@ -1,0 +1,22 @@
+Tech to Learn [Backend];
+branch(front) [Frontend] {
+  HTML, CSS, Javascript;
+  React Native
+}
+branch(mid) [Middleware] {
+  Docker;
+  //Learn todeploy
+  Kubernetes;
+  //Create service mesh
+  Istio;
+  //And microservices
+  Microservices Architecture
+}
+{
+  Node.js;
+  // Basics
+  Express.js;
+  Meteor.js;
+}
+join(front, mid)
+Awesomeness;
