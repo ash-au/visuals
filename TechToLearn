@@ -2,6 +2,7 @@ Tech to Learn
 2018 [Backend];
 branch(front) [Frontend] {
   HTML, CSS, Javascript;
+  // Angular takes time to learn
   React Native;
   // This will eventually take over
   Flutter;
@@ -13,14 +14,20 @@ branch(mid) [Middleware] {
   //Create service mesh
   Istio;
   //And microservices
-  API Management;
+  API Management (apigee);
   Microservices Architecture
 }
 branch(db) [Database] {
   postgre;
+  //Starters
   Cloud SQL;
   Cloud Datastore;
   Firestore;
+}
+branch(cool) [Cool] {
+  AI, ML, NLP concepts;
+  DialogFlow;
+  TensorFlow;
 }
 {
   Node.js;
@@ -28,5 +35,6 @@ branch(db) [Database] {
   Express.js;
   Meteor.js;
 }
-join(front, mid, db)
+join(front, mid, db, cool)
 Awesomeness;
+
